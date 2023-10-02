@@ -1,0 +1,7 @@
+Install dotnet-ef
+
+dotnet tool install --global dotnet-ef
+
+Generate initial migrations
+
+ dotnet ef migrations add Initial -c Smartwyre.DeveloperTest.Data.DContext.SmartwyreDbContext -s ..\..\Smartwyre.DeveloperTest.Runner\Smartwyre.DeveloperTest.Runner.csproj

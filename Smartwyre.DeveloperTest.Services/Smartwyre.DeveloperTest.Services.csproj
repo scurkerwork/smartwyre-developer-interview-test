@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Data\Smartwyre.DeveloperTest.Data.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Entities\Smartwyre.DeveloperTest.Entities.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Enums\Smartwyre.DeveloperTest.Enums.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Interfaces\Smartwyre.DeveloperTest.Interfaces.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Requests\Smartwyre.DeveloperTest.Requests.csproj" />
+    <ProjectReference Include="..\Smartwyre.DeveloperTest.Responses\Smartwyre.DeveloperTest.Responses.csproj" />
+  </ItemGroup>
+
+</Project>
